@@ -1,1 +1,1 @@
-from smartystreets.lookup import Lookup
+from smartystreets2.lookup import Lookup
