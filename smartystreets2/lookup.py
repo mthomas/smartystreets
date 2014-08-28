@@ -71,7 +71,6 @@ class Lookup():
         QUERY_STRING = urllib.urlencode({k:v for k,v in params.iteritems() if v is not None})
 
         URL = LOCATION + "?" + QUERY_STRING
-        print URL
         response = urllib.urlopen(URL).read()
         data = json.loads(response)
         
